@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content=" Talk to online insurance experts and get insurance advice, online support and pocket friendly insurance options." />
+  <meta name="keywords" content="rider shield, bike riders, insurance application, claim insurance" />
+  <title>Rider Shield | Ride On, Worry Less</title>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+
+    Tawk_API.onLoad = function() {
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          var chatBubble = document.querySelector('iframe[title="chat widget"]');
+          if (chatBubble) {
+            chatBubble.classList.add('tawk-chat-bubble');
+            observer.disconnect(); // Stop observing once the chat bubble is found
+          }
+        });
+      });
+
+      // Start observing the document for changes
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+    };
+
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/66ae8e751601a2195ba07639/1i4ctovia";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <script>navigator.serviceWorker.register("rider-shield/src/service-worker.js")</script>
+
+</body>
+</html>
