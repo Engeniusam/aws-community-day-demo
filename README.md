@@ -69,17 +69,20 @@ To demonstrate AWS security and compliance services with this insurance app for 
    - Enabled AWS Security Hub in the AWS account.
    - Connected Security Hub to monitor the S3 bucket, CloudFront, and related AWS resources for security best practices and compliance findings.
    - Reviewed findings and recommendations directly in the Security Hub dashboard.
+   - [Learn more about AWS Security Hub](https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html)
 
 3. **Using AWS Audit Manager**
    - Created an assessment in AWS Audit Manager to track compliance requirements for the app's AWS resources.
    - Mapped controls to the S3 bucket, CloudFront, and IAM roles used by the app.
    - Generated audit-ready reports to demonstrate compliance posture.
+   - [Learn more about AWS Audit Manager](https://docs.aws.amazon.com/audit-manager/latest/userguide/what-is.html)
 ![alt text](<aws audit manager-1.png>)
 
 4. **Enabling AWS Config**
    - Enabled AWS Config to continuously record and evaluate the configuration of AWS resources used by the app.
    - Set up AWS Config rules to monitor changes and ensure resources remain compliant with organizational policies.
    - Used AWS Config timelines to review historical changes and support audit investigations.
+   - [Learn more about AWS Config](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html)
 
 ### Example: How AWS Security Hub and AWS Config Identify Issues
 
